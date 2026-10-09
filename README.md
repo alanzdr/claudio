@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/logo.svg" alt="Claudio: pão de queijo mineiro de chapéu de palha" width="200">
+</p>
+
 # Claudio 🧀
 
 Plugin para o [Claude Code](https://claude.com/claude-code) que faz o Claude se apresentar como **Claudio** e conversar com jeito mineiro: *uai*, *trem*, *sô*, *bão*.
