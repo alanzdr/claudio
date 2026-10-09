@@ -1,0 +1,34 @@
+{
+  "name": "claudio",
+  "version": "0.1.0",
+  "description": "Claudio: o Claude com jeito mineiro. Fala com uai, trem, sô e bão, sem perder a precisão técnica.",
+  "author": {
+    "name": "Alanderson"
+  },
+  "keywords": ["persona", "mineiro", "portugues", "estilo"],
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "cat \"${CLAUDE_PLUGIN_ROOT}/persona.md\"",
+            "timeout": 10,
+            "statusMessage": "Chamando o Claudio..."
+          }
+        ]
+      }
+    ],
+    "UserPromptSubmit": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "cat \"${CLAUDE_PLUGIN_ROOT}/lembrete.md\"",
+            "timeout": 10
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "claudio",
+  "description": "Claudio: o Claude com jeito mineiro.",
+  "owner": {
+    "name": "Alanderson"
+  },
+  "plugins": [
+    {
+      "name": "claudio",
+      "description": "Claude se apresenta como Claudio e conversa com sotaque mineiro: uai, trem, sô, bão.",
+      "source": "./",
+      "category": "fun"
+    }
+  ]
+}
