@@ -3,7 +3,8 @@
   "name": "claudio",
   "description": "Claudio: o Claude com jeito mineiro.",
   "owner": {
-    "name": "Alanderson"
+    "name": "Alanderson",
+    "url": "https://github.com/alanzdr"
   },
   "plugins": [
     {

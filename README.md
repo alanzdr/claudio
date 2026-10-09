@@ -9,7 +9,7 @@ O sotaque fica só na conversa. Código, commits, arquivos e comandos continuam 
 No Claude Code:
 
 ```
-/plugin marketplace add SEU-USUARIO/claudio
+/plugin marketplace add alanzdr/claudio
 /plugin install claudio@claudio
 ```
 

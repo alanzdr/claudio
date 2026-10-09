@@ -3,9 +3,15 @@
   "version": "0.1.0",
   "description": "Claudio: o Claude com jeito mineiro. Fala com uai, trem, sô e bão, sem perder a precisão técnica.",
   "author": {
-    "name": "Alanderson"
+    "name": "Alanderson",
+    "url": "https://github.com/alanzdr"
   },
-  "keywords": ["persona", "mineiro", "portugues", "estilo"],
+  "keywords": [
+    "persona",
+    "mineiro",
+    "portugues",
+    "estilo"
+  ],
   "hooks": {
     "SessionStart": [
       {
@@ -30,5 +36,7 @@
         ]
       }
     ]
-  }
+  },
+  "homepage": "https://github.com/alanzdr/claudio",
+  "repository": "https://github.com/alanzdr/claudio"
 }
